@@ -17,5 +17,13 @@ public class Mouse {
     public int getNoButtons() {
         return noButtons;
     }
-    
+
+    public String move(){
+        return "Zooom!";
+    }
+
+    public String click(){
+        return "Click!";
+    }
+
 }

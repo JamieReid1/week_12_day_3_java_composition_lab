@@ -25,4 +25,14 @@ public class MouseTest {
         assertEquals(2, mouse.getNoButtons());
     }
 
+    @Test
+    public void canMove(){
+        assertEquals("Zooom!", mouse.move());
+    }
+
+    @Test
+    public void canClick(){
+        assertEquals("Click!", mouse.click());
+    }
+
 }
