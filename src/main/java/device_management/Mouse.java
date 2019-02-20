@@ -1,6 +1,8 @@
 package device_management;
 
-public class Mouse {
+import behaviours.IInput;
+
+public class Mouse implements IInput {
 
     private String brand;
     private int noButtons;
@@ -26,4 +28,8 @@ public class Mouse {
         return "Click!";
     }
 
+    @Override
+    public String sendData(String data) {
+        return data;
+    }
 }

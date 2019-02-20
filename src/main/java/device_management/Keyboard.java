@@ -1,6 +1,8 @@
 package device_management;
 
-public class Keyboard {
+import behaviours.IInput;
+
+public class Keyboard implements IInput {
 
     String brand;
     String language;
@@ -20,5 +22,10 @@ public class Keyboard {
 
     public String pressKey(){
         return "Tap Tap!";
+    }
+
+    @Override
+    public String sendData(String data) {
+        return data;
     }
 }

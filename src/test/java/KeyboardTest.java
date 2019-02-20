@@ -30,4 +30,9 @@ public class KeyboardTest {
         assertEquals("Tap Tap!", keyboard.pressKey());
     }
 
+    @Test
+    public void canSendData(){
+        assertEquals("Hello World!", keyboard.sendData("Hello World!"));
+    }
+
 }
