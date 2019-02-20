@@ -30,6 +30,6 @@ public class Mouse implements IInput {
 
     @Override
     public String sendData(String data) {
-        return data;
+        return click() + " : " + data;
     }
 }
