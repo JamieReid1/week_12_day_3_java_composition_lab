@@ -17,4 +17,8 @@ public class Keyboard {
     public String getLanguage() {
         return language;
     }
+
+    public String pressKey(){
+        return "Tap Tap!";
+    }
 }

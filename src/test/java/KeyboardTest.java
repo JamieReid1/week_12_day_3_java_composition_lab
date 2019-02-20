@@ -25,4 +25,9 @@ public class KeyboardTest {
         assertEquals("English, UK", keyboard.getLanguage());
     }
 
+    @Test
+    public void canPressKey(){
+        assertEquals("Tap Tap!", keyboard.pressKey());
+    }
+
 }
